@@ -1,0 +1,25 @@
+1:"$Sreact.fragment"
+2:I[61304,[],"ClientPageRoot"]
+3:I[66919,["672","static/chunks/672-2dc0382360003a55.js","500","static/chunks/500-2d1136a2b6ea2d76.js","569","static/chunks/569-145dc830e2f43aa3.js","370","static/chunks/370-fd766118fa6f900a.js","892","static/chunks/892-108f3cd9649580de.js","50","static/chunks/50-5e1612673bd3204f.js","676","static/chunks/676-5e4cf985c4dadd48.js","392","static/chunks/392-e2489192dc2e2545.js","974","static/chunks/app/page-9ef70525e68fb028.js"],"default"]
+6:I[90484,[],"OutletBoundary"]
+7:"$Sreact.suspense"
+b:I[90484,[],"ViewportBoundary"]
+c:I[90484,[],"MetadataBoundary"]
+e:I[82934,["672","static/chunks/672-2dc0382360003a55.js","500","static/chunks/500-2d1136a2b6ea2d76.js","569","static/chunks/569-145dc830e2f43aa3.js","370","static/chunks/370-fd766118fa6f900a.js","805","static/chunks/805-2b7cafa46f34f36e.js","50","static/chunks/50-5e1612673bd3204f.js","676","static/chunks/676-5e4cf985c4dadd48.js","177","static/chunks/app/layout-776642698ce4abb4.js"],"AppShell"]
+f:I[57121,[],""]
+10:I[87460,["39","static/chunks/app/error-5f1c6e1faab25860.js"],"default"]
+11:I[74581,[],""]
+12:I[98500,["500","static/chunks/500-2d1136a2b6ea2d76.js","345","static/chunks/app/not-found-696509a45a246f68.js"],""]
+:HL["/_next/static/css/1feb8b1fc67aa918.css","style"]
+a:X
+0:{"buildId":"XKyTyIUMW4nDsZ9W23IwT","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],null,["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":"$@9","staleTime":"$a","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$Lb",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$Lc",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":[]}]}]}],null]}],"isPartial":"$@d","staleTime":"$a","varyParams":null},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/1feb8b1fc67aa918.css","precedence":"next"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","title",null,{"children":"OFFLIMITS — Merchant Intelligence Loop"}],["$","meta",null,{"name":"description","content":"From messy merchant activity to business action. SEE → THINK → ACT → UPDATED STATE."}],["$","meta",null,{"name":"theme-color","content":"#0b1324"}],["$","link",null,{"rel":"icon","href":"/icon.svg","type":"image/svg+xml"}]]}],["$","body",null,{"children":["$","$Le",null,{"children":["$","$Lf",null,{"parallelRouterKey":"children","error":"$10","errorStyles":[],"errorScripts":null,"template":["$","$L11",null,{}],"notFound":[["$","div",null,{"className":"flex flex-col items-center py-24 text-center","children":[["$","div",null,{"className":"font-mono text-sm text-slate-400","children":"404"}],["$","h1",null,{"className":"mt-2 text-xl font-bold","children":"Page not found"}],["$","$L12",null,{"href":"/","className":"mt-4 text-sm font-medium text-brand hover:underline","children":"Back to the command center"}]]}],[]]}]}]}]]}]]}],"isPartial":"$@13","staleTime":"$a","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@14","rootVaryParams":null,"needsRuntimeRequest":"$@15"}
+4:{}
+5:"$0:data:0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
+a:300
+15:true
+a:C
+14:0
+d:"$undefined"
+13:"$undefined"
+9:"$undefined"
