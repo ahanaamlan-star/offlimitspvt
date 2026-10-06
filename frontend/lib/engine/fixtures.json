@@ -1,0 +1,31 @@
+{
+  "c704593eb3f841ea27371187a44774c297ed9e8019b6455502ca548e2d84d2db": {
+    "filename": "demo_invoice_metro_INV-2841.png",
+    "kind": "invoice",
+    "label": "Supplier invoice · Metro Beverages INV-2841",
+    "ocr_text": "Metro Beverages\nWholesale beverage distributor (DEMO)\nMumbai · GSTIN: DEMO-NOT-REAL\nTAX INVOICE\nInvoice No: INV-2841\nBill to: Rajesh General Stores\nCredit: 7 days\nItem Qty Rate Amount\nCoke 40 38 1520\nSprite 30 34 1020\nTotal 2540\nPayment terms: 7 days credit"
+  },
+  "89ba55c7fcd60c41417ebc490408f8123c1785d69a6b1949411984573fdacc59": {
+    "filename": "demo_quotation_supplierB_QT-552.png",
+    "kind": "quotation",
+    "label": "Quotation · Supplier B QT-552",
+    "ocr_text": "Beverages Distribution Co.\nSupplier B (DEMO)\nSame-day delivery in Mumbai\nQUOTATION\nQuotation QT-552\nMOQ 20\nCredit: 15 days\nDelivery: today\nItem Qty Rate Amount\nThums Up 300ml 24 36 864\nTotal 864\nValid for 7 days"
+  },
+  "674b0164ff642275fa9a1b6eb7651e7294b2fa252423dca55001f7be11d8cb3a": {
+    "filename": "demo_receipt_householdhub_HH-7802.png",
+    "kind": "receipt",
+    "label": "Cash receipt · Household Hub HH-7802",
+    "ocr_text": "Household Hub Distributors\nSupplier E (DEMO)\nCash & carry counter\nCASH RECEIPT\nBill No: HH-7802\nPaid: cash\nCredit: 0 days\nItem Qty Rate Amount\nVim Bar 36 16 576\nTotal 576\nPaid in full"
+  },
+  "193b8ae2c93bf8c32fccb5b1a5402eac3566f74879ca6f7ee5acef817cc27cdf": {
+    "filename": "demo_voice_payment_ramesh.wav",
+    "kind": "voice",
+    "label": "Voice note (demo placeholder audio)",
+    "transcript": "Ramesh Stores ne 3000 rupaye de diye"
+  },
+  "93df9221c33e5d450975ac50f75dc0bf51eda7471aa50b5e3f6847a619310c4c": {
+    "filename": "demo_invoice_householdhub_HH-7790.pdf",
+    "kind": "invoice",
+    "label": "Supplier invoice · Household Hub HH-7790 (PDF)"
+  }
+}
