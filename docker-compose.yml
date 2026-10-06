@@ -1,0 +1,28 @@
+# docker compose up --build  →  http://localhost:3000
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: offlimits
+      POSTGRES_PASSWORD: offlimits
+      POSTGRES_DB: offlimits
+    ports: ["5432:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U offlimits"]
+      interval: 3s
+      retries: 20
+  backend:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    environment:
+      DATABASE_URL: postgresql+psycopg://offlimits:offlimits@db:5432/offlimits
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      FRONTEND_ORIGINS: http://localhost:3000
+    depends_on:
+      db: { condition: service_healthy }
+    ports: ["8000:8000"]
+  frontend:
+    build: { context: ./frontend, args: { BACKEND_URL: "http://backend:8000" } }
+    environment:
+      BACKEND_URL: http://backend:8000
+    depends_on: [backend]
+    ports: ["3000:3000"]

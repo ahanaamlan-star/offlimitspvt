@@ -1,0 +1,33 @@
+# Netlify deploy for OFFLIMITS (Git-based deploy).
+# The site is a static Next.js export; the business engine runs in the browser (DEMO DATA, per visitor).
+# Optional: set GEMINI_API_KEY (and GEMINI_MODEL) in Netlify → Site configuration → Environment variables
+# to enable live Gemini understanding through the server-side function in frontend/netlify/functions.
+[build]
+  base = "frontend"
+  command = "npm run build:static"
+  publish = "out"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NEXT_PUBLIC_API_MODE = "local"
+  STATIC_EXPORT = "1"
+  NEXT_TELEMETRY_DISABLED = "1"
+  # Plain static export: skip Netlify's Next.js server runtime (nothing server-side to run)
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    X-Frame-Options = "SAMEORIGIN"
+    Permissions-Policy = "microphone=(self), camera=()"
+
+[[headers]]
+  for = "/vendor/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
